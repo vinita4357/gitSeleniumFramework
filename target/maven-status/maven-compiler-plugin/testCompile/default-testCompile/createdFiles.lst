@@ -17,11 +17,9 @@ webdrivermanager1.class
 getalllinks.class
 readexcel$1.class
 screenshot.class
-interface2.class
 ExtentReportlistner.class
 webtable.class
 actionsclasskeypresses.class
 BrowserTest.class
 utility\webeventlistener.class
 uploadfile.class
-interface1.class

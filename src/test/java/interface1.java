@@ -1,4 +1,0 @@
-
-public interface interface1 {
-
-}
