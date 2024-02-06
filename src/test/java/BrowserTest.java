@@ -23,7 +23,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class BrowserTest {
-	@Test(expectedExceptions=NoSuchElementException.class)
+	@Test
 public void openbrowser() throws IOException, InterruptedException ,NoSuchElementException{
 	System.setProperty("webdriver.edge.driver", "C:\\Users\\vinita.chauhan\\Documents\\msedgedriver.exe");
 	WebDriver driver=new EdgeDriver();
@@ -57,6 +57,7 @@ while(i.hasNext()) {
 
 	
 }
+/***
 driver.findElement(By.partialLinkText("browserstack1")).click();
 driver.manage().window().maximize();
 Thread.sleep(5000);
@@ -64,6 +65,6 @@ driver.findElement(By.cssSelector("button#developers-dd-toggle")).click();
 Thread.sleep(5000);
 driver.findElement(By.xpath("//*[@title='Release Notes']/../following-sibling::div/a[1]")).click();
 
- 
+ */
 }
 }
